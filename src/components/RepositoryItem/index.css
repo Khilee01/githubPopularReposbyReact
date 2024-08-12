@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.alignCounts {
+  width: 80%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.icons {
+  margin-right: 3px;
+  height: 25px;
+  width: 25px;
+}
+
+.repoItem {
+  background-color: #f8f8ff;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin: 10px;
+  min-width: 20vw;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.repoItem h1 {
+  color: #e73959;
+  font-size: 25px;
+}
+
+.avatarImg {
+  min-height: 100px;
+  min-width: 100px;
+  height: 1vh;
+  width: 1vh;
+}
